@@ -1,42 +1,27 @@
 401 JS --  Lab 28 Data Structures and Algorithms
-===
+# Data Structures & Algorithms
 
-## Submission Instructions
-  * Work in a fork of this repository
-  * Work in a branch on your fork
-  * Write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-duncan`
-  * Submit a pull request to this repository
-  * Submit a link to your pull request on canvas
-  * Submit a question, observation, and how long you spent on canvas  
+## Description
 
-## Learning Objectives  
-<!-- the leaning objectives from the corisponding class number -->
-## Resources  
-<!-- a list of liks if any are necessary for the assignment-->
-## Requirements  
-#### Configuration  
-<!-- list of files, configurations, tools, ect that are required -->
-Your lab directory must include  
-* **README.md** -- with a documention about your lab
-* **.gitignore** -- with a robust gitignore
-* **.eslintrc** -- with the class .eslintrc file
-* **.eslintignore** -- with the class .eslintignore
-* **.package.json** -- with all dependencies and dev-dependencies
-* **lib/** - a directory for helper modules
-* **model/** - a directory for constructor functions
-* **test/** - a directory for test modules
-* **server.js** - entry point to your program
+*NOTE: Complete your solutions on a whiteboard or on paper first*
 
-#### Feature Tasks  
-<!-- a list or description of the feature tasks you want the students to implement -->
-####  Documentation  
-<!-- a description of what you want the student to write about in their readme -->
-#### Testing  
-<!-- a description of what you want the student to test -->
-## Rubric  
-* 2ps Configuration
-* 3pts Feature Tasks
-* 3pts Tests
-* 2pts Documentation
+Part 1: Write a function that takes in a BST and a value, the function will insert this
+value as a new node in the BST.
 
-<!-- links -->
+Part 2: Write a functin that takes in a BST and a value, the function will remove this
+value from the tree. Caveats: No additional nodes can be removed from the tree, and the
+tree must remain a valid BST after the node is removed. If the value isn't in the BST,
+handle it how you see fit and document your implmentation choice.
+
+Include a thorough set of tests for each function
+
+## To Submit this Assignment
+
+* Copy your solution and comments to a new [Gist](http://gist.github.com)
+  * Provide a name and description to your file (don't forget to include the file extension)
+* Save your Gist as either private or public, and copy the URL.
+* Submit the link to your Gist in Canvas along with one observation and any questions.
+
+#### Rubric:
+* Successfully Solve Problem 5pts
+* Sufficient set of tests 5pts
